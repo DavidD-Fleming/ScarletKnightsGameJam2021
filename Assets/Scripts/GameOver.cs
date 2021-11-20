@@ -7,8 +7,11 @@ public class GameOver : MonoBehaviour
 {
     // game over screen
     public GameObject gameOverScreen;
-
     bool isGameOver;
+
+    public int levelNumberToLoad;
+    public string levelStringToLoad;
+    public bool useIntegerToLoad = false;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +25,14 @@ public class GameOver : MonoBehaviour
         if (isGameOver && Input.GetKey(KeyCode.Space))
         {
             Time.timeScale = 1;
-            SceneManager.LoadScene(0);
+            if (useIntegerToLoad)
+            {
+                SceneManager.LoadScene(levelNumberToLoad);
+            }
+            else
+            {
+                SceneManager.LoadScene(levelStringToLoad);
+            }
         }
     }
 
