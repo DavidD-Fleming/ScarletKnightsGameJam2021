@@ -292,8 +292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54e9898ddfa385c47adc228c3ac6c2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumberToLoad: 0
-  levelStringToLoad: Scene1
+  levelNumberToLoad: 4
+  levelStringToLoad: Animation
   useIntegerToLoad: 0
 --- !u!4 &1227120393
 Transform:
@@ -544,7 +544,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GAME TITLE
+  m_Text: Jammin' Jelly
 --- !u!222 &1410591294
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -745,8 +745,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: 179}
-  m_SizeDelta: {x: 1428.7087, y: 168.2372}
+  m_AnchoredPosition: {x: 7, y: 25.3532}
+  m_SizeDelta: {x: 1428.7087, y: 475.5309}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1944093267
 MonoBehaviour:
@@ -781,8 +781,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcome to our entry into the Rutgers Scarlet Knights 2021 Game Jam! blah
-    blah blah blah blah blah blah. Press P to pause the game!
+  m_Text: "Welcome to our entry into the Rutgers Scarlet Knights 2021 Game Jam! It\u2019s
+    a local two player tag team game, where two friends traverse the levels by vaulting
+    on jam blocks and knocking enemies and obstacles away by jamming away with your
+    surround sound.\r\n\r\nHere\u2019s how it works: \r\nMovement: WASD (red player)
+    and arrow keys (black player)\r\nThe black player can aim with the . key to drop/throw
+    jam, which both players can stand on and jump higher. \r\nThe red has the ability
+    to shoot sound waves using the F button that can bounce off of the jam blocks
+    and push people in the way. Press P to pause the game!"
 --- !u!222 &1944093268
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54e9898ddfa385c47adc228c3ac6c2c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumberToLoad: 3
+  levelNumberToLoad: 0
   levelStringToLoad: StartScene
   useIntegerToLoad: 0
 --- !u!4 &1836057206
